@@ -1,0 +1,16 @@
+[17-Dec-2021 00:29:36 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/u1092682/public_html/r/libs/Medoo/Medoo.php on line 292
+[17-Dec-2021 00:29:36 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/u1092682/public_html/r/libs/linkity.php on line 741
+[17-Dec-2021 00:29:36 UTC] PHP Warning:  file_get_contents(http://ip-api.com/json/114.5.109.223): failed to open stream: no suitable wrapper could be found in /home/u1092682/public_html/r/libs/linkity.php on line 741
+[17-Dec-2021 00:29:36 UTC] PHP Deprecated:  implode(): Passing glue string after array is deprecated. Swap the parameters in /home/u1092682/public_html/r/libs/Medoo/Medoo.php on line 1331
+[07-Apr-2022 14:12:25 UTC] PHP Warning:  Undefined array key "name" in /home/u1092682/public_html/r/libs/linkity.php on line 77
+[07-Apr-2022 14:12:25 UTC] PHP Warning:  Undefined array key "user" in /home/u1092682/public_html/r/libs/linkity.php on line 77
+[07-Apr-2022 14:12:25 UTC] PHP Warning:  Undefined array key "password" in /home/u1092682/public_html/r/libs/linkity.php on line 77
+[07-Apr-2022 14:12:25 UTC] PHP Warning:  Undefined array key "host" in /home/u1092682/public_html/r/libs/linkity.php on line 77
+[07-Apr-2022 14:12:25 UTC] PHP Warning:  Undefined array key "port" in /home/u1092682/public_html/r/libs/linkity.php on line 77
+[07-Apr-2022 14:12:25 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/u1092682/public_html/r/libs/Medoo/Medoo.php:292
+Stack trace:
+#0 /home/u1092682/public_html/r/libs/Medoo/Medoo.php(292): implode(Array, ';')
+#1 /home/u1092682/public_html/r/libs/linkity.php(77): Medoo\Medoo->__construct(Array)
+#2 /home/u1092682/public_html/r/redirect.php(11): Linkity->__construct()
+#3 {main}
+  thrown in /home/u1092682/public_html/r/libs/Medoo/Medoo.php on line 292
