@@ -292,7 +292,7 @@ section .small-width {
 }
 
 .smaller-sec {
-  width: 1024px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -4498,6 +4498,9 @@ section .small-width {
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   z-index: 1;
+  max-width: 370px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .product-item .inner-content:after {
