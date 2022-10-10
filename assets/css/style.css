@@ -297,6 +297,10 @@ section .small-width {
   margin-right: auto;
 }
 
+.logo-main {
+  width: 300px;
+}
+
 @media only screen and (max-width: 1199px) {
 
   section .container,
